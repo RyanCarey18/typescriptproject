@@ -1,0 +1,31 @@
+{
+    "dependencies": {
+        "@types/mysql": "^2.15.21",
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.0.2",
+        "express": "^4.18.1",
+        "mysql": "^2.18.1"
+    },
+    "name": "typescriptproject",
+    "description": "",
+    "version": "1.0.0",
+    "main": "source/server.ts",
+    "scripts": {
+        "build": "rm -rf build/ && tsc "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RyanCarey18/typescriptproject.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RyanCarey18/typescriptproject/issues"
+    },
+    "homepage": "https://github.com/RyanCarey18/typescriptproject#readme",
+    "devDependencies": {
+        "@types/body-parser": "^1.19.2",
+        "@types/dotenv": "^8.2.0",
+        "@types/express": "^4.17.14"
+    }
+}
